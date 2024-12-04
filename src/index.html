@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Projeto Dashboard</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script>
+    
+    const firebaseConfig = {
+      apiKey: "NOSSA_CHAVE",
+      authDomain: "PROJETO.firebaseapp.com",
+      databaseURL: "https://PROJETO.firebaseio.com",
+      projectId: "PROEJTO-ID",
+      storageBucket: "ARMAZENAMENTO.appspot.com",
+      messagingSenderId: "364940477754",
+      appId: "1:364940477754:web:7169653896c8107c1ffc03"
+    };
+  
+    firebase.initializeApp(firebaseConfig);
+    const database = firebase.database();
+  </script>
+
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
